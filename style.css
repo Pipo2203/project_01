@@ -282,6 +282,7 @@ footer{
     margin-top: -70px;
 }
 .product3{
+    box-shadow: var(--shadow);
     border-radius: 30px;
     background-color: var(--white);
     border: 1px solid var(--dark);
@@ -519,6 +520,7 @@ ul {
     color: #fff;
     background-color: #3b5998;
     margin: 10px;
+    transition: 0.2s;
 }
 .button-login2{
     text-align: center;
@@ -532,6 +534,7 @@ ul {
     color: #fff;
     background-color: #ea4335;
     margin: 10px;
+    transition: 0.2s;
 }
 .button-login3{
     text-align: center;
@@ -545,6 +548,16 @@ ul {
     color: #fff;
     background-color: #01b301;
     margin: 10px;
+    transition: 0.2s;
+}
+.button-login:hover{
+    transform:translateY(-5px);
+}
+.button-login2:hover{
+    transform:translateY(-5px);
+}
+.button-login3:hover{
+    transform:translateY(-5px);
 }
 .button-login i{
     padding-right: 22px;
@@ -602,9 +615,10 @@ ul {
     color: #929292;
     border-radius: 5px;
     margin-bottom: 10px;
+    text-shadow: none;
 }
 
-.form-login p,label{
+.form-login p,label-1{
     color: #929292;
     text-align: left;
 }
