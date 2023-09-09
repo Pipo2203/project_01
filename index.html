@@ -13,6 +13,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <!-- <script src="script.js"></script> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
   <!-- navbar -->
@@ -34,23 +36,20 @@
       </div>
       </nav>
       <nav class="navbar2">
-        <span class="open-slide">
-          <a href="#" onclick="openMenu()">
-            <span class="material-symbols-outlined" style="font-size: 30px;">
-              sort
-              </span>
-          </a>
-        </span>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
         <div class="navbar-nav2">
-          <i ><img src="img/logo.png" ></i>
-        <ul>
-          <li><a href="index.html">หน้าหลัก</a></li>
-          <li><a href="product.html">ไอดีเกม</a></li>
-          <li><a href="history.html">ประวัติการซื้อ</a></li>
-        </ul>
-      </div>
-      </nav>
+            <i><img src="img/logo.png"></i>
+            <ul class="menu">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="product.html">ไอดีเกม</a></li>
+                <li><a href="history.html">ประวัติการซื้อ</a></li>
+            </ul>
+        </div>
+    </nav>
       <div id="side-menu" class="side-nav">
         <a href="#" onclick="closeMenu()" class="btn-close">&times;</a>
         <a href="#">หน้าหลัก</a>
@@ -79,7 +78,7 @@
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
               <div class="carousel-item">
-                <img src="img/rov3.jpg" class="d-block w-100" alt="...">
+                <img src="img/banner3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
             </div>
@@ -94,14 +93,14 @@
           </div>
           <!-- Product -->
         <br>
-        <div class="mid-container">
+        <div class="mid-container1">
           <b><h1>Recommended Product</h1></b>
           <p>สินค้าแนะนำ</p>
           <div class="boxs">
-            <a href="product_detail.html" class="box img " >ไอดีเทพ</a>
-            <a href="product_detail.html" class="box img2 ">ไอดีเทพ</a>
-            <a href="product_detail.html" class="box img3 ">ไอดีเทพ</a>
-            <a href="product_detail.html" class="box img4 ">ไอดีเทพ</a>
+            <a href="product_detail.html" class="box img " ></a>
+            <a href="product_detail.html" class="box img2 "></a>
+            <a href="product_detail.html" class="box img3 "></a>
+            <a href="product_detail.html" class="box img4 "></a>
           </div>
         </div>
       </div>
@@ -109,7 +108,11 @@
       <br>
       <br>
       <footer class="footer-top">
-    
+      <div class="footer-row">
+        <div class="footer-content">
+
+        </div>
+      </div>
       </footer>
 </body>
 </html>
